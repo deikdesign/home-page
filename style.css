@@ -27,3 +27,18 @@ nav form button{
     width: 80px;
     height: 33px;
 }
+section, aside{
+    display:inline-block;
+    vertical-align: top;
+}   
+
+section {
+    margin-left: 161px;
+    margin-right: 25px;
+}
+
+aside img{
+    width: 168px;
+    height: 94px;
+    display: block;
+}
