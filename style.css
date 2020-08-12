@@ -1,0 +1,29 @@
+*{  margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-family: sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+nav {
+    background:#dfe6e9;
+}
+
+nav img{
+    display:inline-block;
+    width: 100px;
+}
+
+nav  form input{
+    display:inline-block;
+    width: 581px;
+    height: 33px;
+}
+
+nav form button{
+    display:inline-block;
+    width: 80px;
+    height: 33px;
+}
