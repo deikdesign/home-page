@@ -7,23 +7,30 @@
    box-sizing: border-box;
 }
 
+body {
+    background: rgb(247, 247, 247);
+}
 
-
-
+nav {
+    padding: 15px 0;
+    background: white;
+}
 
 nav div{
    display: inline-block;
-   vertical-align: baseline;
+   vertical-align: middle;
+   /*border: 1px solid black;*/
 }
 
 #left-icon-list-container {
     margin-left: 30px;
+    font-size: 20px;
+    opacity: .6;
 }
 
 .fa-youtube {
     color: red;
-    margin-top: 5px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #logo-container {
@@ -35,47 +42,55 @@ nav div{
 }
 
 #youtube-font {
-    margin-top: 20px;
     font-size: 20px;
     font-weight:bold;
+    margin-top: 5px;
 }
 
 #form-container{
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 #form-container input {
     float: left;
-    font-size: 35px;
-    border: 1px solid gray;
+    font-size: 20px;
+    padding: 7px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 2.5px;
     width: 700px;
-    background: #f1f1f1;
 }
 
 #form-container button {
     float: left;
-    border: 1px solid gray;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 2.5px;
     width: 80px;
-    height: 42px;
-    background: #b3b6b9;
+    height: 41px;
     cursor: pointer;
 }
 
 #form-container i {
     margin-left: 30px;
-    color: white;
-    font-size: 20px;
+    font-size: 15px;
+    opacity: .4;
 }
 
 #tree-icons-navbar-container {
     margin-left:100px;
 }
 
-#tree-icons-navbar-container i
-{
-font-size: 25px;
-color: black;
-margin: 0 20px;
+#tree-icons-navbar-container i {
+    font-size: 20px;
+    margin: 0 20px;
+    opacity: .6;
+}
+
+#accountIcon-container{
+    margin-left: 20px;
+}
+
+#accountIcon-container i {
+    font-size: 45px;
 }
 
 
@@ -89,6 +104,7 @@ section {
     margin-left: 145px;
     margin-right: 25px;
     margin-top: 30px;
+    border: 1px solid black;
 }
 
 section iframe {
@@ -161,3 +177,4 @@ section h1 {
     margin-top: 20px;
     opacity:.7;
 }
+
