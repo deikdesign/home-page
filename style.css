@@ -1,44 +1,69 @@
-*{  margin: 0px;
-    padding: 0px;
-    border: 0;
-    font-family: sans-serif;
-    list-style: none;
-    box-sizing: border-box;
-    border: 1px solid black;
+#left-icon-list-container {
+    margin-left: 30px;
 }
 
-nav {
-    background:#dfe6e9;
+.fa-youtube {
+    color: red;
+    margin-top: 5px;
+    font-size: 50px;
 }
 
-nav img{
-    display:inline-block;
-    width: 100px;
+#logo-container {
+    margin-left: 30px;
 }
 
-nav  form input{
-    display:inline-block;
-    width: 581px;
-    height: 33px;
+#logo-container p, i {
+    float: left;
 }
 
-nav form button{
-    display:inline-block;
+#youtube-font {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+
+
+
+#form-container{
+    margin-left: 100px;
+}
+
+#form-container input {
+    float: left;
+    font-size: 35px;
+    border: 1px solid gray;
+    width: 700px;
+    background: #f1f1f1;
+}
+
+#form-container button {
+    float: left;
+    border: 1px solid gray;
     width: 80px;
-    height: 33px;
-}
-section, aside{
-    display:inline-block;
-    vertical-align: top;
-}   
-
-section {
-    margin-left: 161px;
-    margin-right: 25px;
+    height: 42px;
+    background: #b3b6b9;
+    cursor: pointer;
 }
 
-aside img{
-    width: 168px;
-    height: 94px;
-    display: block;
+#form-container i {
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+#tree-icons-navbar-container {
+    margin-left:100px;
+}
+
+#tree-icons-navbar-container i
+{
+font-size: 25px;
+color: black;
+margin: 0 20px;
 }
