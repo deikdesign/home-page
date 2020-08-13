@@ -7,28 +7,41 @@
    box-sizing: border-box;
 }
 
+hr { 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
 body {
     background: rgb(247, 247, 247);
 }
 
+/**************************************/
+
 nav {
-    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 14px 0;
     background: white;
 }
 
 nav div{
    display: inline-block;
    vertical-align: middle;
-   /*border: 1px solid black;*/
 }
 
-#left-icon-list-container {
+#barsIcon-container{
     margin-left: 30px;
     font-size: 20px;
     opacity: .6;
 }
 
-.fa-youtube {
+#logo-container i {
     color: red;
     font-size: 30px;
 }
@@ -75,11 +88,11 @@ nav div{
     opacity: .4;
 }
 
-#tree-icons-navbar-container {
+#leftThreeIcons-container {
     margin-left:100px;
 }
 
-#tree-icons-navbar-container i {
+#leftThreeIcons-container i {
     font-size: 20px;
     margin: 0 20px;
     opacity: .6;
@@ -93,18 +106,14 @@ nav div{
     font-size: 45px;
 }
 
-
-
-
-
-
+/**************************************/
 
 section {
     width: 48%;
     margin-left: 145px;
     margin-right: 25px;
-    margin-top: 30px;
-    border: 1px solid black;
+    margin-top: 100px;
+    overflow: auto;
 }
 
 section iframe {
@@ -112,69 +121,104 @@ section iframe {
     height: 28em; 
 }
 
-section h1 {
-    padding: 20px 0;
-    opacity: .9;
+section h2 {
+    margin-top: 15px;
+    padding: 10px 0;
+    font-weight: lighter;
 }
 
-#video-status{
-    padding: 20px 0;
+/**************************************/
+
+#videoStatus-container{
+    padding: 10px 0;
     opacity: .7;
+    overflow: auto;
 }
 
-.status-containes{
+#videoStatus-container i, p {
+    float: left;
+}
+
+#videoStatus-container div {
     display: inline-block;
     margin-right: 52px;
 }
 
-.status-containes i, p{
-    float: left;
-}
-
-.status-containes i{
+#videoStatus-container i{
     margin-right: 15px;
 }
 
-#video-suscribe {
-    border: 1px solid black
+/**************************************/
+
+#videoDescription-container {
+    overflow: auto;
+}
+
+#videoSuscribe-container {
+    overflow: auto;
     margin-top: 15px;
 }
 
-#video-suscribe i, p{
+#videoSuscribe-container i, p{
     float: left;
 }
 
-#video-suscribe i {
+#videoSuscribe-container i {
     font-size: 65px;
     margin-right: 15px;
 }
 
-#video-suscribe p {
+#videoSuscribe-container p {
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
 }
 
-#video-suscribe button {
+#videoSuscribe-container button {
     float: right;
     color: white;
-    font-weight: bold;
     padding: 10px;
     font-size: 20px;
-    background: red;
+    background: #c00;
+    border-radius: 3px;
     margin-top: 15px;
 }
 
-.description-text-1 {
+#videoDescription-container #description-text {
     font-size: 18px;
     margin-left: 80px;
     margin-top: 20px;
 }
 
-.description-text-2 {
+#videoDescription-container #showMore-text {
     font-size: 15px;
     margin-left: 80px;
     margin-top: 20px;
-    opacity:.7;
+    margin-bottom: 20px;
+    font-weight: bold;
+    opacity: .6;
 }
 
+/**************************************/
+
+#comments-container {
+    overflow: auto;
+    margin-top: 30px;
+}
+
+#comments-container #comments-text {
+    font-size: 20px;
+}
+
+#comments-container i {
+    margin-left: 50px;
+    opacity: .7;
+}
+
+#comments-container #sort-text {
+    margin-left: 15px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/**************************************/
