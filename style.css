@@ -61,35 +61,36 @@ nav div{
 }
 
 #form-container{
-    margin-left: 130px;
+    margin-left: 8.5%;
+    width: 50%;
 }
 
 #form-container input {
     float: left;
+    width: 90%;
     font-size: 20px;
     padding: 7px;
     border: 1.5px solid #d3d3d3;
     border-radius: 2.5px;
-    width: 700px;
 }
 
 #form-container button {
     float: left;
     border: 1.5px solid #d3d3d3;
     border-radius: 2.5px;
-    width: 80px;
+    width: 10%;
     height: 41px;
     cursor: pointer;
 }
 
 #form-container i {
-    margin-left: 30px;
+    margin-left: 40%;
     font-size: 15px;
     opacity: .4;
 }
 
 #leftThreeIcons-container {
-    margin-left:100px;
+    margin-left:7%;
 }
 
 #leftThreeIcons-container i {
@@ -99,7 +100,7 @@ nav div{
 }
 
 #accountIcon-container{
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 #accountIcon-container i {
