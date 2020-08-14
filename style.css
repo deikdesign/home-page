@@ -109,6 +109,7 @@ nav div{
 /**************************************/
 
 section {
+    float:left;
     width: 48%;
     margin-left: 145px;
     margin-right: 25px;
@@ -219,6 +220,57 @@ section h2 {
     margin-left: 15px;
     font-weight: bold;
     opacity: .6;
+}
+
+/**************************************/
+.aside {
+    margin-top: 100px;
+    margin-left: 2px;
+    width: 500px;
+    height: 800px;
+    float: left;
+    position:relative; 
+    border: 1px solid black;
+
+}
+
+
+.right-sidebar-buttons {
+border: 1px solid black;
+overflow: auto;
+}
+     
+#font-autoplay {
+    border: 1px solid black;
+    float:right;
+}
+
+    .toggle-off {
+    font-size: 30px;
+    color: black;
+    margin: 0 10px;
+    border: 1px solid black;
+    }
+    
+#UpNext {
+    border: 1px solid black;
+    float:left;
+}
+
+.frame {
+    padding-top:  30px;    
+}
+
+.video-description {
+    float:right;
+    border: 1px solid black;
+    width: 195px;
+    height:150px;
+}
+
+.video-description p {
+    padding: 5px 0; 
+    opacity: .7;
 }
 
 /**************************************/
