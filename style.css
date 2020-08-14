@@ -14,11 +14,10 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    
-  }
+}
 
 body {
-    background: rgb (249, 249, 249)
+    background: #F9F9F9;
 }
 
 /**************************************/
@@ -33,8 +32,8 @@ nav {
 }
 
 nav div{
-   display: inline-block;
-   vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #barsIcon-container{
@@ -113,7 +112,7 @@ nav div{
 
 section {
     float:left;
-    width: 48%;
+    width: 730px;
     margin-left: 145px;
     margin-right: 25px;
     margin-top: 100px;
@@ -205,25 +204,78 @@ section h2 {
 
 /**************************************/
 
-#comments-container {
+
+#commentsAmount-container {
     overflow: auto;
     margin-top: 30px;
 }
 
-#comments-container #comments-text {
+#commentsAmount-container #comments-text {
     font-size: 20px;
 }
 
-#comments-container i {
+#commentsAmount-container i {
     margin-left: 50px;
     opacity: .7;
 }
 
-#comments-container #sort-text {
+#commentsAmount-container #sort-text {
     margin-left: 15px;
     font-weight: bold;
     opacity: .6;
 }
+
+
+
+
+
+.comments-container {
+    margin-top: 50px;
+    overflow: auto;
+}
+
+.comments-container .fa-user-circle {
+    font-size: 50px;
+}
+
+.commentsTitle-container {
+    overflow: auto;
+    margin-left: 70px;
+}
+
+.commentsUser{
+    font-weight: bold;
+}
+
+.commentsDate {
+    margin-left: 30px;
+    opacity: .7;
+}
+
+.commentsComment {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.commentsThumbs-container {
+    clear: both;
+    overflow: auto;
+    opacity: .7;
+}
+
+.commentsThumbs-container i {
+    margin-right: 5px;
+}
+
+.commentsThumbs-container p {
+    margin-right: 25px;
+}
+
+
+
+
+
 
 /**************************************/
 .aside {
@@ -232,48 +284,41 @@ section h2 {
     width: 500px;
     height: auto;
     float: left;
-    border: 1px solid white;
-
 }
-
 
 .right-sidebar-buttons {
-border: 1px solid none;
-overflow: auto;
-margin-top: 30px;
+    overflow: auto;
 }
-     
+
 #font-autoplay {
-    border: 1px solid none;
     width: auto;
     float: right;
 }
 .autoplay {
-margin-top: 10px;
-margin-right: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 
-    .toggle-off {
+.toggle-off {
     font-size: none;
     margin: 0 10px;
-    }
-    
+}
+
 #UpNext {
-    border: 1px solid none;
     float:left;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .frame {
-    padding-top:  30px;    
+    margin-top: 10px;    
 }
 
 .video-description {
     float:right;
-    border: 1px solid white;
     width: 195px;
     height:150px;
-    
 }
 
 .video-description p {
@@ -282,9 +327,8 @@ margin-right: 5px;
 }
 
 .frame iframe {
-height:200px;
-width:300px
-
+    height:200px;
+    width:300px
 }
 
 
