@@ -22,7 +22,7 @@ Usage:
 - n/a
 
 Run tests:
--HTML validator, w3 validation
+- HTML validator, w3 validation
 
 Deployment:
 - n/a
