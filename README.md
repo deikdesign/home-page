@@ -6,22 +6,28 @@ Build with:
 - HTML/CSS
 
 
-Live Demo
-https://deikdesign.github.io/home-page/.
+Live Demo:
+- https://deikdesign.github.io/home-page/.
 
-Prerequisites
-Chrome browser
-Setup
-n/a
-Install
-n/a
-Usage
-n/a
-Run tests
-HTML validator, w3 validation
-Deployment
+Prerequisites:
+- Chrome browser
 
-Authors
+Setup:
+- n/a
+
+Install:
+- n/a
+
+Usage:
+- n/a
+
+Run tests:
+-HTML validator, w3 validation
+
+Deployment:
+- n/a
+
+Authors:
 
 👤 Author1
 
