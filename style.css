@@ -237,10 +237,6 @@ section h2 {
     opacity: .6;
 }
 
-
-
-
-
 .comments-container {
     margin-top: 50px;
     overflow: auto;
@@ -284,11 +280,6 @@ section h2 {
     margin-right: 25px;
 }
 
-
-
-
-
-
 /**************************************/
 .aside {
     margin-top: 100px;
@@ -309,11 +300,6 @@ section h2 {
 .autoplay {
     margin-top: 10px;
     margin-right: 5px;
-}
-
-.toggle-off {
-    font-size: none;
-    margin: 0 10px;
 }
 
 #UpNext {
