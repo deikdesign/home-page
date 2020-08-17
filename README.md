@@ -10,9 +10,9 @@ Live Demo:
 - https://deikdesign.github.io/home-page/.
 
 Setup:
-- To clone from terminal
-  $ cd "folder location"
-  $ git clone https://github.com/deikdesign/home-page
+- To clone from terminal.
+  - $ cd "folder location"
+  - $ git clone https://github.com/deikdesign/home-page
 
 Run tests:
 - HTML validator, w3 validation
