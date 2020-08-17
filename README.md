@@ -9,23 +9,13 @@ Build with:
 Live Demo:
 - https://deikdesign.github.io/home-page/.
 
-Prerequisites:
-- Chrome browser
-
 Setup:
-- n/a
-
-Install:
-- n/a
-
-Usage:
-- n/a
+- To clone from terminal
+  $ cd "folder location"
+  $ git clone https://github.com/deikdesign/home-page
 
 Run tests:
 - HTML validator, w3 validation
-
-Deployment:
-- n/a
 
 Authors:
 
