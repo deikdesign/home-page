@@ -5,6 +5,8 @@ First project for HTML/CSS section. Embedding videos.
 Build with:
 - HTML/CSS
 
+![screenshot](./youtube-screenshot.PNG) 
+
 
 Live Demo:
 - https://deikdesign.github.io/home-page/.
