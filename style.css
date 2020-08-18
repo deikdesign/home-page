@@ -42,6 +42,7 @@ nav div{
     opacity: .6;
 }
 
+
 #logo-container i {
     color: red;
     font-size: 30px;
@@ -55,10 +56,21 @@ nav div{
     float: left;
 }
 
-#youtube-font {
+#youtube-logo {
+    width: 100px;
+    height: 30px; 
+    display: inline-block;
     font-size: 20px;
     font-weight:bold;
-    margin-top: 5px;
+}
+
+#BG {
+    background-color: transparent; 
+    color:rgb(114, 113, 113);
+    font-size:11px;
+    font-weight:normal;
+    position:absolute;
+    border: 1px solid none ;
 }
 
 #form-container{
