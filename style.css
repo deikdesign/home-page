@@ -136,14 +136,8 @@ section iframe {
     height: 28em; 
 }
 
-
-
-
-
-
-
-
 /**************************************/
+
 #videoGeneralInformation-container {
     overflow: auto;
     margin-top: 5px;
@@ -233,6 +227,11 @@ section h3 {
     font-size: 60px;
 }
 
+.shareButton {
+    cursor: pointer;
+    background: white; 
+}
+
 #thumbs-container{
     margin-right: 15px;
 }
@@ -269,14 +268,6 @@ section h3 {
 }
 
 /**************************************/
-
-
-
-
-
-
-
-
 
 .comments-container {
     margin-top: 50px;
