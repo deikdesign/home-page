@@ -20,14 +20,31 @@ Run tests:
 - HTML validator, w3 validation
 
 Authors:
+=======
 
-👤 Author1
+Live Demo
+https://deikdesign.github.io/home-page/.
+
+Prerequisites
+Chrome browser
+Setup
+n/a
+Install
+n/a
+Usage
+n/a
+Run tests
+HTML validator, w3 validation
+Deployment
+
+
+👤 Deyan Todorov
 
 Github: @deikdesign
 Twitter: @deikdesign
 Linkedin: linkedin
 
-👤 Author2
+👤 Alan Soto
 
 Github: @AlanSoto31
 Twitter: @Alan95081574
