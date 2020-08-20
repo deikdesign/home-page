@@ -1,0 +1,365 @@
+*{ 
+   margin: 0px;
+   padding: 0px;
+   border: 0;
+   font-family: sans-serif;
+   list-style: none;
+   box-sizing: border-box;
+}
+
+hr { 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+/**************************************/
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 14px 0;
+    background: white;
+    z-index:2;
+}
+
+nav div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#barsIcon-container{
+    margin-left: 30px;
+    font-size: 20px;
+    opacity: .6;
+}
+
+
+#logo-container i {
+    color: red;
+    font-size: 30px;
+}
+
+#logo-container {
+    margin-left: 30px;
+}
+
+#logo-container p, i {
+    float: left;
+}
+
+#youtube-logo {
+    width: 100px;
+    height: 30px; 
+    display: inline-block;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+#BG {
+    background-color: transparent; 
+    color:rgb(114, 113, 113);
+    font-size:11px;
+    font-weight:normal;
+    position:absolute;
+    border: 1px solid none ;
+}
+
+#form-container{
+    margin-left: 8.5%;
+    width: 50%;
+}
+
+#form-container input {
+    float: left;
+    width: 90%;
+    font-size: 20px;
+    padding: 7px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 2.5px;
+}
+
+#form-container button {
+    float: left;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 2.5px;
+    width: 10%;
+    height: 41px;
+    cursor: pointer;
+}
+
+#form-container i {
+    margin-left: 40%;
+    font-size: 15px;
+    opacity: .4;
+}
+
+#leftThreeIcons-container {
+    margin-left:7%;
+}
+
+#leftThreeIcons-container i {
+    font-size: 20px;
+    margin: 0 20px;
+    opacity: .6;
+}
+
+#accountIcon-container{
+    margin-left: 1%;
+}
+
+#accountIcon-container i {
+    font-size: 45px;
+}
+
+/**************************************/
+
+section {
+    float:left;
+    width: 730px;
+    margin-left: 145px;
+    margin-right: 25px;
+    margin-top: 100px;
+    overflow: auto;
+}
+
+section iframe {
+    width: 100%; 
+    height: 28em; 
+}
+
+/**************************************/
+
+#videoGeneralInformation-container {
+    overflow: auto;
+    margin-top: 5px;
+    background: white;  
+}
+
+section h3 {
+    margin-top: 15px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+/**************************************/
+#videoSuscribe-container {
+    overflow: auto;
+    margin-top: 10px;
+}
+
+#videoSuscribe-container i {
+    font-size: 60px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+#videoSuscribe-container #buttonAndUserName-container, i {
+    float: left;
+}
+
+#buttonAndUserName-container {
+    overflow: auto;
+    width: 150px;
+}
+
+#videoSuscribe-container #userName {
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .7;
+    margin-top: 5px;
+}
+
+#videoSuscribe-container button {
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    background:red;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+#videoSuscribe-container button .fa-youtube{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+#views {
+    float: right;
+    font-size: 19px;
+    margin-top: 40px;
+    margin-right: 15px;
+    opacity: .7;
+    line-height: 24px;
+}
+/**************************************/
+#videoStatus-container{
+    padding: 10px 0;
+    opacity: .6;
+    overflow: auto;  
+}
+
+#addShareMore-container div{
+    overflow: auto;
+    float:left;
+    margin-left: 15px;
+}
+
+.textInsideStatus, .iconsInsideStatus {
+    float: left;
+}
+
+.textInsideStatus{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.iconsInsideStatus{
+    font-size: 60px;
+}
+
+.shareButton {
+    cursor: pointer;
+    background: white; 
+}
+
+#thumbs-container{
+    margin-right: 15px;
+}
+
+#thumbs-container div {
+    float: right;
+    overflow: auto;
+    margin-left: 15px;
+}
+/**************************************/
+#videoDescription-container {
+    overflow: auto;
+    margin-top: 15px;
+    padding:15px;
+    opacity: .7;
+    background: white;
+}
+
+#videoDescription-container #description-title{
+    font-weight: bold;
+}
+
+#videoDescription-container #description-text {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+#videoDescription-container #showMore-text {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    opacity: .6;
+}
+
+/**************************************/
+
+.comments-container {
+    margin-top: 50px;
+    overflow: auto;
+}
+
+.comments-container .fa-user-circle {
+    font-size: 50px;
+}
+
+.commentsTitle-container {
+    overflow: auto;
+    margin-left: 70px;
+}
+
+.commentsUser{
+    font-weight: bold;
+}
+
+.commentsDate {
+    margin-left: 30px;
+    opacity: .7;
+}
+
+.commentsComment {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.commentsThumbs-container {
+    clear: both;
+    overflow: auto;
+    opacity: .7;
+}
+
+.commentsThumbs-container i {
+    margin-right: 5px;
+}
+
+.commentsThumbs-container p {
+    margin-right: 25px;
+}
+
+/**************************************/
+.aside {
+    margin-top: 100px;
+    margin-left: 2px;
+    width: 500px;
+    height: auto;
+    float: left;
+}
+
+.right-sidebar-buttons {
+    overflow: auto;
+}
+
+#font-autoplay {
+    width: auto;
+    float: right;
+}
+.autoplay {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#UpNext {
+    float:left;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.frame {
+    margin-top: 10px;    
+}
+
+.video-description {
+    float:right;
+    width: 195px;
+    height:150px;
+}
+
+.video-description p {
+    padding: 5px 0; 
+    opacity: .7;
+}
+
+.frame iframe {
+    height:200px;
+    width:300px
+}
+
+
+/**************************************/
